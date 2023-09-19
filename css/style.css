@@ -1129,8 +1129,8 @@ body::-webkit-scrollbar {
   background: url('../img/btns/user_btn.png') no-repeat center center #ccc;
   background-size: 30px 30px;
   position: fixed;
-  right: 5vw;
-  top: 120px;
+  right: 30px;
+  bottom: 30px;
   cursor: pointer;
 }
 @media screen and (min-width: 1441px) {
@@ -2166,6 +2166,6 @@ body::-webkit-scrollbar {
     display: block;
   }
   #userBtn {
-    top: 90px;
+    right: 30px;
   }
 }
