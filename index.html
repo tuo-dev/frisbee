@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+    />
+    <meta
+      name="format-detection"
+      content="telephone=no, address=no, email=no"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <title>frisbee</title>
+  </head>
+  <body>
+    <header id="main_header">
+      <h1><a href="javascript:void(0);">frisbee</a></h1>
+      <button type="button" class="toggle">
+        <span class="bar1"></span>
+        <span class="bar2"></span>
+        <span class="bar3"></span>
+        <span class="sr_only">전체메뉴</span>
+      </button>
+      <nav class="gnb">
+        <div class="gnb_box">
+          <ul class="gnb_list">
+            <li>
+              <a href="javascript:void(0);">애플</a>
+              <div class="sub">
+                <ul>
+                  <li><a href="javascript:void(0);">Mac</a></li>
+                  <li><a href="javascript:void(0);">iPad</a></li>
+                  <li><a href="javascript:void(0);">iPhone</a></li>
+                  <li><a href="javascript:void(0);">Watch</a></li>
+                  <li><a href="javascript:void(0);">Air Pods</a></li>
+                  <li><a href="javascript:void(0);">Apple TV</a></li>
+                  <li><a href="javascript:void(0);">Apple ACC</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="javascript:void(0);">프리스비</a>
+              <div class="sub">
+                <ul>
+                  <li><a href="javascript:void(0);">멤버십 혜택 안내</a></li>
+                  <li><a href="javascript:void(0);">입점 / 광고문의</a></li>
+                  <li><a href="javascript:void(0);">무료교육</a></li>
+                  <li><a href="javascript:void(0);">보상판매</a></li>
+                  <li><a href="javascript:void(0);">기업구매</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="javascript:void(0);">메뉴</a>
+              <div class="sub">
+                <ul>
+                  <li><a href="javascript:void(0);">Community</a></li>
+                  <li><a href="javascript:void(0);">New</a></li>
+                  <li><a href="javascript:void(0);">Sale</a></li>
+                  <li><a href="javascript:void(0);">Ranking</a></li>
+                  <li><a href="javascript:void(0);">Event</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="javascript:void(0);">쇼핑</a>
+              <div class="sub">
+                <ul>
+                  <li><a href="javascript:void(0);">주변기기</a></li>
+                  <li><a href="javascript:void(0);">오디오</a></li>
+                  <li><a href="javascript:void(0);">모니터</a></li>
+                  <li><a href="javascript:void(0);">Tech</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="javascript:void(0);">서비스</a>
+              <div class="sub">
+                <ul>
+                  <li><a href="javascript:void(0);">공지사항</a></li>
+                  <li><a href="javascript:void(0);">자주하는 질문</a></li>
+                  <li><a href="javascript:void(0);">1:1 문의</a></li>
+                  <li><a href="javascript:void(0);">매장안내</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="gnb_bg"></div>
+    </header>
+    <section id="main_banner">
+      <div class="banner_box">
+        <div class="mbanner1">
+          <img
+            src="img/banner/banner1.png"
+            alt="애플페이이미지"
+            class="applepay"
+          />
+          <div class="paylogo_box">
+            <img
+              src="img/banner/applepay_logo_w.png"
+              alt="애플페이로고"
+              class="paylogo"
+            />
+          </div>
+            <p class="banner_text">
+              <strong>쉽고 안전하고 재빠르게</strong><br>
+              <span>이제 프리스비에서도</span> <span>Apple Pay</span>
+            </p>
+            <a href="javascript:void(0);" class="banner_more">자세히보기</a>
+        </div>
+        <div class="mbanner2">
+          <img src="img/banner/banner2.png" alt="아이폰이미지" />
+          <p>
+            <span>iPhone 14</span>
+            <strong>선택도 다채롭게.</strong>
+          </p>
+          <p class="banner_text">
+            <span>쉽고 안전한 Apple Pay도</span><br>
+            <span>이제 iPhone에서 경험해 보세요</span>
+          </p>
+          <a href="javascript:void(0);" class="banner_more">구입하기</a>
+        </div>
+        <div class="mbanner3">
+          <img src="img/banner/banner3.png" alt="리뷰를부탁해" />
+          <p class="banner_text">
+            <strong>누구나 쉽게 배우는 코딩</strong><br>
+            <span>편의점 꿀조합 레시피 앱 개발</span><br>
+            <span>ios 마스터 jk</span>
+          </p>
+          <a href="javascript:void(0);" class="banner_more">신청하기</a>
+        </div>
+        <div class="mbanner4">
+          <img src="img/banner/banner4.png" alt="지구이미지" />
+          <p class="banner_text">
+            <span>프리스비 6월 프로모션</span>
+            <br><span>더 쉽게 환경을 지켜주세요</span>
+          </p>
+          <a href="javascript:void(0);" class="banner_more">더 알아보기</a>
+        </div>
+        <ul class="mbanner_btnlist">
+          <li class="banner_btn1">
+            <a href="javascript:void(0);"
+              ><strong>Apple pay</strong>
+              <span class="gage"></span>
+              <span class="gage2"></span>
+            </a>
+          </li>
+          <li class="banner_btn2">
+            <a href="javascript:void(0);"
+              ><strong>선택도 다채롭게</strong>
+              <span class="gage"></span>
+              <span class="gage2"></span>
+            </a>
+          </li>
+          <li class="banner_btn3">
+            <a href="javascript:void(0);"
+              ><strong>코딩 아카데미</strong>
+              <span class="gage"></span>
+              <span class="gage2"></span>
+            </a>
+          </li>
+          <li class="banner_btn4">
+            <a href="javascript:void(0);"
+              ><strong>Earth를 아낀다</strong>
+              <span class="gage"></span>
+              <span class="gage2"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <div id="scroll">
+      <div class="scroll_img">
+        <img src="img/btns/scroll_up.png" alt="scrollup" />
+      </div>
+      <span>SCROLL</span>
+    </div>
+    <section id="slide_text">
+      <div class="innerbox">
+        <p class="text1 big left">APPLE</p>
+        <p class="text2 big right">IPHONE</p>
+        <p class="text3 right">SE</p>
+        <p class="text4 right">MINI</p>
+        <p class="text5 big left">MAC BOOK</p>
+        <p class="text6 left">MAX</p>
+        <p class="text7 right">PRO</p>
+        <p class="text8 big right">AIR PODS</p>
+        <p class="text9 big left">IPAD</p>
+      </div>
+    </section>
+    <section id="apple_items">
+      <ul style="display:none;">
+        <li>
+          <a href="javascript:void(0);">
+            <img src="img/apple/macbook.png" alt="맥북" />
+            <span>Mac Book</span>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:void(0);">
+            <img src="img/apple/ipad.png" alt="아이패드" />
+            <span>iPad</span>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:void(0);">
+            <img src="img/apple/iphone.png" alt="아이폰" />
+            <span>iPhone</span>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:void(0);">
+            <img src="img/apple/airpods.png" alt="에어팟" />
+            <span>Air Pods</span>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:void(0);">
+            <img src="img/apple/watch.png" alt="애플워치" />
+            <span>Apple Watch</span>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:void(0);">
+            <img src="img/apple/ACC.png" alt="애플악세서리" />
+            <span>Apple ACC</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section id="apple_sale">
+      <div class="innerbox">
+        <div class="sale_text">
+          <span>sale</span>
+        </div>
+        <figure>
+          <img src="img/apple_sale/event1.jpg" alt="신한 gs prime 카드" />
+          <figcaption>
+            <h3>맥북 프로 <span class="red">20만원</span> 캐시백</h3>
+            <p>GS Prime 신규 카드 발급 혜택</p>
+            <span class="sale_box">신한카드</span>
+            <br>
+            <a href="javascript:void(0);">더 알아보기 &gt;</a>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="img/apple_sale/event2.jpeg" alt="에어팟프로" />
+          <figcaption>
+            <h3>에어팟 프로 <span class="red">5%</span> 할인</h3>
+            <p>듣는다는 것을 다시 생각하다</p>
+            <span class="sale_box">온/오프라인 동시</span>
+            <br>
+            <a href="javascript:void(0);">더 알아보기 &gt;</a>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="img/apple_sale/event3.jpeg" alt="아이패드프로" />
+          <figcaption>
+            <h3>iPad Pro M2 <span class="red m_air">5%</span> <span class="m_air">할인</span></h3>
+            <p>전 품목 5% 할인</p>
+            <span class="sale_box">온라인 단독</span>
+            <br>
+            <a href="javascript:void(0);">더 알아보기 &gt;</a>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="img/apple_sale/event4.jpeg" alt="아이패드에어" />
+          <figcaption>
+            <h3>iPad Air <span class="red">5%</span> 할인</h3>
+            <p>쓰다.그리다.빠져들다.</p>
+            <span class="sale_box">온라인 단독</span>
+            <br>
+            <a href="javascript:void(0);">더 알아보기 &gt;</a>
+          </figcaption>
+        </figure>
+        <div class="sale_more"><a href="javascript:void(0);">MORE</a></div>
+      </div>
+    </section>
+    <section id="section_banner">
+      <div class="sbanner1">
+        <img src="img/sale-icon.png" alt="할인아이콘" />
+        <p>
+          <span>프리스비 가입하면 1만원 할인</span>
+          <a href="javascript:void(0);">가입하고 혜택 받기</a>
+        </p>
+      </div>
+      <div class="sbanner2">
+        <img src="img/calendar-icon.png" alt="캘린더아이콘" />
+        <p>
+          <span>프리스비 회원 누구나 매일 200원</span>
+          <a href="javascript:void(0);">출석체크 하러 가기</a>
+        </p>
+      </div>
+    </section>
+    <section id="brand_event">
+      <div class="innerbox">
+        <h2><a href="javascript:void(0);">Brand Event</a></h2>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+              <a href="javascript:void(0);" class="swiper-slide"><img src="img/sale/sale1.png" alt=""></a>
+              <a href="javascript:void(0);" class="swiper-slide"><img src="img/sale/sale2.png" alt=""></a>
+              <a href="javascript:void(0);" class="swiper-slide"><img src="img/sale/sale3.png" alt=""></a>
+              <a href="javascript:void(0);" class="swiper-slide"><img src="img/sale/sale4.png" alt=""></a>
+              <a href="javascript:void(0);" class="swiper-slide"><img src="img/sale/sale5.png" alt=""></a>
+              <a href="javascript:void(0);" class="swiper-slide"><img src="img/sale/sale6.png" alt=""></a>
+          </div>
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </div>
+    </section>
+    <section id="shop">
+      <div class="shop_box">
+        <ul class="category">
+          <li><a href="javascript:void(0);" class="on">주변기기</a></li>
+          <li><a href="javascript:void(0);">오디오</a></li>
+          <li><a href="javascript:void(0);">모니터</a></li>
+          <li><a href="javascript:void(0);">TECH</a></li>
+        </ul>
+        <ul class="box1 items" style="display:none">
+          <li>
+            <a href="javascript:void(0);"></a>
+            <img src="img/items/item1_1.jpeg" alt="" />
+            <div>
+              <p>엑토 무선 블루투스 키보드 BTK-11</p>
+              <p>32,900 <del>50,800</del> <em>35%</em></p>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:void(0);"></a>
+            <img src="img/items/item1_2.jpeg" alt="" />
+            <div>
+              <p>맥도도 PD3.0 충전기+C to C 케이블 CH352</p>
+              <p>42,000</p>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:void(0);"></a>
+            <img src="img/items/item1_3.jpeg" alt="" />
+            <div>
+              <p>JSAUX C to C 3.1 Gen2 연장케이블 2m</p>
+              <p>14,900</p>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:void(0);"></a>
+            <img src="img/items/item1_4.jpeg" alt="" />
+            <div>
+              <p>맥도도 LED 셀카봉 삼각대 P90</p>
+              <p>41,500</p>
+            </div>
+          </li>
+        </ul>
+        <ul class="box2 items" style="display:none">
+          <li>
+            <a href="javascript:void(0);"></a>
+            <img src="img/items/item2_1.jpeg" alt="" />
+            <div>
+              <p>니케 클램프형 헤드셋 거치대</p>
+              <p>25,900 <del>28,900</del> <em>10%</em></p>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:void(0);"></a>
+            <img src="img/items/item2_2.jpeg" alt="" />
+            <div>
+              <p>스컬캔디 Sesh ANC 세쉬 블루투스 이어폰</p>
+              <p>109,000 <del>129,000</del> <em>16%</em></p>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:void(0);"></a>
+            <img src="img/items/item2_3.jpeg" alt="" />
+            <div>
+              <p>Campfire Audio Saber 다마스쿠스</p>
+              <p>629,000</p>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:void(0);"></a>
+            <img src="img/items/item2_4.jpeg" alt="" />
+            <div>
+              <p>펭카 버즈 블루투스 이어폰 PB3004</p>
+              <p>27,900 <del>32,000</del> <em>13%</em></p>
+            </div>
+          </li>
+        </ul>
+        <ul class="box3 items" style="display:none">
+          <li>
+            <a href="javascript:void(0);"></a>
+            <img src="img/items/item3_1.jpeg" alt="" />
+            <div>
+              <p>LG 27UQ850W 27인치 모니터 HDR400</p>
+              <p>798,000</p>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:void(0);"></a>
+            <img src="img/items/item3_2.jpeg" alt="" />
+            <div>
+              <p>LG 27MD5KL 27인치 Mac 전용 모니터</p>
+              <p>1,598,000</p>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:void(0);"></a>
+            <img src="img/items/item3_3.jpeg" alt="" />
+            <div>
+              <p>LG 27GQ50F 27인치 게이밍모니터</p>
+              <p>279,000 <del>299,000</del> <em>7%</em></p>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:void(0);"></a>
+            <img src="img/items/item3_4.jpeg" alt="" />
+            <div>
+              <p>LG 32GN650 32인치 게이밍모니터</p>
+              <p>449,000</p>
+            </div>
+          </li>
+        </ul>
+        <ul class="box4 items" style="display:none">
+          <li>
+            <a href="javascript:void(0);"></a>
+            <img src="img/items/item4_1.jpeg" alt="" />
+            <div>
+              <p>LG전자 3D 4K 블루레이 플레이어 UBK90</p>
+              <p>279,000 <del>299,000</del> <em>7%</em></p>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:void(0);"></a>
+            <img src="img/items/item4_2.jpeg" alt="" />
+            <div>
+              <p>미니엔 제트건 MI-AIR300 무선 에어건</p>
+              <p>89,000 <del>99,000</del> <em>10%</em></p>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:void(0);"></a>
+            <img src="img/items/item4_3.jpeg" alt="" />
+            <div>
+              <p>소싱 써니 나이트 라이트 센서 무드등</p>
+              <p>29,800 <del>37,900</del> <em>21%</em></p>
+            </div>
+          </li>
+          <li>
+            <a href="javascript:void(0);"></a>
+            <img src="img/items/item4_4.jpeg" alt="" />
+            <div>
+              <p>주연테크 JYT-C1 웹캠</p>
+              <p>29,900 <del>59,900</del> <em>50%</em></p>
+            </div>
+          </li>
+        </ul>
+        <a href="javascript:void(0);" class="shopMore">more</a>
+        <div id="shopBtn">
+          <span></span>
+        </div>
+      </div>
+    </section>
+    <footer id="main_footer">
+      <div class="ft_logo">frisbee</div>
+      <ul class="ft_menu">
+        <li><a href="javascript:void(0);">매장안내</a></li>
+        <li><a href="javascript:void(0);">기업구매</a></li>
+        <li><a href="javascript:void(0);">보상판매</a></li>
+        <li><a href="javascript:void(0);">사이트맵</a></li>
+      </ul>
+      <div class="ft_box1">
+        <ul class="company">
+          <li><a href="javascript:void(0);">회사소개</a></li>
+          <li><a href="javascript:void(0);">이용약관</a></li>
+          <li><a href="javascript:void(0);">개인정보처리방침</a></li>
+        </ul>
+        <p>
+          <strong>주식회사 갈라인터내셔널</strong> 대표이사 : 황규명 주소 :
+          서울특별시 용산구 한강대로 283-8(금강토탈패션할인매장) 2층
+        </p>
+        <p>
+          개인정보보호책임자 : 손순천 사업자등록번호 : 201-86-09137 통신판매
+          2019-서울용산-1543
+          <span class="eMail">
+            이메일 :
+          <a href="mailto:frisbee@frisbeekorea.com">frisbee@frisbeekorea.com</a>
+          </span>
+        </p>
+      </div>
+      <div class="ft_box2">
+        <p>고객센터 <a href="tel:1599-1736">1599-1736</a></p>
+        <p class="mEmail"><a href="mailto:frisbee@frisbeekorea.com">frisbee@frisbeekorea.com</a></p>
+        <p>AM 10:00 - PM 5:00 월요일 - 금요일 (공휴일 휴무)</p>
+        <p class="copy">CopyRight &copy; www.frisbeekorea.com All right reserved.</p>
+      </span>
+        <ul class="sns">
+          <li><a href="javascript:void(0);">naver</a></li>
+          <li><a href="javascript:void(0);">youtube</a></li>
+          <li><a href="javascript:void(0);">facebook</a></li>
+          <li><a href="javascript:void(0);">instagram</a></li>
+        </ul>
+      </div>
+      <p class="mCopy">CopyRight &copy; www.frisbeekorea.com <br class="mBr">All right reserved.</p>
+      <div class="ft_bg"></div>
+    </footer>
+    <span id="fullGage"></span>
+    <button type="button" id="userBtn"></button>
+    <script src="js/script.js"></script>
+  </body>
+</html>
